@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{1748bbab-ad7a-48a3-a0c0-ad20088394c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\objects">
+      <UniqueIdentifier>{1dc1b418-ade9-4933-8d1f-238d58467347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{5811966a-4af0-4ba5-aea8-85695fc507e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\texture">
+      <UniqueIdentifier>{073910b6-4d29-4af1-967b-b534bf6f3573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\object">
+      <UniqueIdentifier>{b9820418-c7f5-44e1-87f5-945d078a7a91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\objects\grass_cube.mtl">
+      <Filter>Resource Files\objects</Filter>
+    </None>
+    <None Include="code\objects\ground.mtl">
+      <Filter>Resource Files\objects</Filter>
+    </None>
+    <None Include="code\objects\rubik.mtl">
+      <Filter>Resource Files\objects</Filter>
+    </None>
+    <None Include="shaders\ground.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\ground.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\light.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\light.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\object.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\object.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="code\objects\aof5_cube.obj">
+      <Filter>Resource Files\objects</Filter>
+    </Object>
+    <Object Include="code\objects\grass_cube.obj">
+      <Filter>Resource Files\objects</Filter>
+    </Object>
+    <Object Include="code\objects\ground.obj">
+      <Filter>Resource Files\objects</Filter>
+    </Object>
+    <Object Include="code\objects\light_sphere.obj">
+      <Filter>Resource Files\objects</Filter>
+    </Object>
+    <Object Include="code\objects\rubik.obj">
+      <Filter>Resource Files\objects</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="code\objects\aof5_cube.mtl">
+      <Filter>Resource Files\objects</Filter>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\programs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tiny_obj_loader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\attribute_array.h">
+      <Filter>Source Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\program.h">
+      <Filter>Source Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\skybox.h">
+      <Filter>Source Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\texture\cubemap.h">
+      <Filter>Source Files\objects\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\texture\image.h">
+      <Filter>Source Files\objects\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\texture\texture.h">
+      <Filter>Source Files\objects\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\object\object.h">
+      <Filter>Source Files\objects\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\object\object_position.h">
+      <Filter>Source Files\objects\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objects\object\data.h">
+      <Filter>Source Files\objects\object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

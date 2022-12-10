@@ -98,6 +98,9 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
+# thanks VS, but I want my wavefront files pushed
+!objects/*.obj
+
 # Chutzpah Test files
 _Chutzpah*
 

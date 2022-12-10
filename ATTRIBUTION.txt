@@ -1,0 +1,8 @@
+ - https://learnopengl.com: 
+ As stated in as stated in https://learnopengl.com/About, all code and images from this source are licensed under CC-BY 4.0 (human-readable: https://creativecommons.org/licenses/by/4.0/, full license: https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+ The author of that website is Joey de Vries (twitter handle: https://twitter.com/JoeyDeVriez)
+ CODE: All code files that were adapted from this source have been modified. The list of such files is:
+  - shaders/skybox.vert
+  - shaders/skybox.frag
+ ASSETS: 
+  - The skybox texture is taken from https://learnopengl.com/img/textures/skybox.zip

@@ -1,0 +1,12 @@
+CAMERA:
+	W: Fly forward
+	S: Fly backwards
+	A: Fly left
+	D: Fly right
+	spacebar: fly up
+	left shift: fly down
+	left ctrl: hold to fly faster
+
+MISC:
+	,: tap to cycle render mode (modes: filled, wireframe, points)
+	esc: quit program
